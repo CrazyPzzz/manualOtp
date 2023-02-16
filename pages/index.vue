@@ -198,6 +198,7 @@
                 <th scope="col">Number</th>
                 <th scope="col">Operator</th>
                 <th scope="col">Code</th>
+                <th scope="col">Text</th>
                 <th scope="col">
                   <button @click="showAll" class="btn btn-success col-12">
                     Show all
@@ -243,6 +244,9 @@
                   >
                     copy
                   </button>
+                </td>
+                <td>
+                {{ row.text }}
                 </td>
                 <td>
                   <button
